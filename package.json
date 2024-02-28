@@ -1,0 +1,22 @@
+{
+  "name": "ring",
+  "version": "0.1.0",
+  "description": "Record video to file from a Ring cam",
+  "main": "index.mjs",
+  "scripts": {
+    "auth": "ring-auth-cli"
+  },
+  "keywords": [
+    "cam",
+    "ring",
+    "record",
+    "video"
+  ],
+  "author": "pioz",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "ring-client-api": "^12.1.0"
+  }
+}
